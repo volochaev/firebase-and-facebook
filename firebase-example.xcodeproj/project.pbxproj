@@ -7,11 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AE7C4DC110B56CD72CFF733 /* Pods_firebase_example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5A71BE06190B76465460E4 /* Pods_firebase_example.framework */; };
 		24B6E7DB1BE797300052CCDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6E7DA1BE797300052CCDD /* AppDelegate.swift */; };
 		24B6E7DD1BE797300052CCDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6E7DC1BE797300052CCDD /* ViewController.swift */; };
 		24B6E7E01BE797300052CCDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B6E7DE1BE797300052CCDD /* Main.storyboard */; };
 		24B6E7E21BE797300052CCDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24B6E7E11BE797300052CCDD /* Assets.xcassets */; };
 		24B6E7E51BE797300052CCDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B6E7E31BE797300052CCDD /* LaunchScreen.storyboard */; };
+		24B6E7F61BE799960052CCDD /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24B6E7F21BE799960052CCDD /* NotoSans-Bold.ttf */; };
+		24B6E7F71BE799960052CCDD /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24B6E7F31BE799960052CCDD /* NotoSans-BoldItalic.ttf */; };
+		24B6E7F81BE799960052CCDD /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24B6E7F41BE799960052CCDD /* NotoSans-Italic.ttf */; };
+		24B6E7F91BE799960052CCDD /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24B6E7F51BE799960052CCDD /* NotoSans-Regular.ttf */; };
+		24B6E7FB1BE79BA90052CCDD /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6E7FA1BE79BA90052CCDD /* MaterialView.swift */; };
+		24B6E7FD1BE79BE20052CCDD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6E7FC1BE79BE20052CCDD /* Constants.swift */; };
+		24B6E7FF1BE79F490052CCDD /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6E7FE1BE79F490052CCDD /* MaterialButton.swift */; };
+		24B6E8011BE7A1690052CCDD /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6E8001BE7A1690052CCDD /* MaterialTextField.swift */; };
+		24B6E8051BE7A5D50052CCDD /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B6E8021BE7A5D50052CCDD /* Bolts.framework */; };
+		24B6E8061BE7A5D50052CCDD /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B6E8031BE7A5D50052CCDD /* FBSDKCoreKit.framework */; };
+		24B6E8071BE7A5D50052CCDD /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B6E8041BE7A5D50052CCDD /* FBSDKLoginKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,20 @@
 		24B6E7E11BE797300052CCDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24B6E7E41BE797300052CCDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24B6E7E61BE797300052CCDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24B6E7F21BE799960052CCDD /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		24B6E7F31BE799960052CCDD /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		24B6E7F41BE799960052CCDD /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		24B6E7F51BE799960052CCDD /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		24B6E7FA1BE79BA90052CCDD /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		24B6E7FC1BE79BE20052CCDD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		24B6E7FE1BE79F490052CCDD /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		24B6E8001BE7A1690052CCDD /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		24B6E8021BE7A5D50052CCDD /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		24B6E8031BE7A5D50052CCDD /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		24B6E8041BE7A5D50052CCDD /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		279381D10C2A6CE74D992D17 /* Pods-firebase-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase-example.release.xcconfig"; path = "Pods/Target Support Files/Pods-firebase-example/Pods-firebase-example.release.xcconfig"; sourceTree = "<group>"; };
+		7C461906E1FCDF2E2C6147A0 /* Pods-firebase-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase-example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-firebase-example/Pods-firebase-example.debug.xcconfig"; sourceTree = "<group>"; };
+		BE5A71BE06190B76465460E4 /* Pods_firebase_example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebase_example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +55,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24B6E8051BE7A5D50052CCDD /* Bolts.framework in Frameworks */,
+				24B6E8061BE7A5D50052CCDD /* FBSDKCoreKit.framework in Frameworks */,
+				24B6E8071BE7A5D50052CCDD /* FBSDKLoginKit.framework in Frameworks */,
+				0AE7C4DC110B56CD72CFF733 /* Pods_firebase_example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +70,8 @@
 			children = (
 				24B6E7D91BE797300052CCDD /* firebase-example */,
 				24B6E7D81BE797300052CCDD /* Products */,
+				8CED64BF9771F359C4C4544A /* Pods */,
+				5CB2AC8F2E20D1E761B3B2EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +86,90 @@
 		24B6E7D91BE797300052CCDD /* firebase-example */ = {
 			isa = PBXGroup;
 			children = (
+				24B6E7ED1BE798FF0052CCDD /* Controllers */,
+				24B6E7EC1BE798F90052CCDD /* Models */,
+				24B6E7EE1BE799060052CCDD /* Views */,
+				24B6E7F01BE799110052CCDD /* Lib */,
+				24B6E7EF1BE7990A0052CCDD /* Frameworks */,
+				24B6E7F11BE799620052CCDD /* Resources */,
 				24B6E7DA1BE797300052CCDD /* AppDelegate.swift */,
-				24B6E7DC1BE797300052CCDD /* ViewController.swift */,
 				24B6E7DE1BE797300052CCDD /* Main.storyboard */,
 				24B6E7E11BE797300052CCDD /* Assets.xcassets */,
 				24B6E7E31BE797300052CCDD /* LaunchScreen.storyboard */,
 				24B6E7E61BE797300052CCDD /* Info.plist */,
 			);
 			path = "firebase-example";
+			sourceTree = "<group>";
+		};
+		24B6E7EC1BE798F90052CCDD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		24B6E7ED1BE798FF0052CCDD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				24B6E7DC1BE797300052CCDD /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		24B6E7EE1BE799060052CCDD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				24B6E7FA1BE79BA90052CCDD /* MaterialView.swift */,
+				24B6E7FE1BE79F490052CCDD /* MaterialButton.swift */,
+				24B6E8001BE7A1690052CCDD /* MaterialTextField.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		24B6E7EF1BE7990A0052CCDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24B6E8021BE7A5D50052CCDD /* Bolts.framework */,
+				24B6E8031BE7A5D50052CCDD /* FBSDKCoreKit.framework */,
+				24B6E8041BE7A5D50052CCDD /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24B6E7F01BE799110052CCDD /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				24B6E7FC1BE79BE20052CCDD /* Constants.swift */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		24B6E7F11BE799620052CCDD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				24B6E7F21BE799960052CCDD /* NotoSans-Bold.ttf */,
+				24B6E7F31BE799960052CCDD /* NotoSans-BoldItalic.ttf */,
+				24B6E7F41BE799960052CCDD /* NotoSans-Italic.ttf */,
+				24B6E7F51BE799960052CCDD /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5CB2AC8F2E20D1E761B3B2EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE5A71BE06190B76465460E4 /* Pods_firebase_example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CED64BF9771F359C4C4544A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C461906E1FCDF2E2C6147A0 /* Pods-firebase-example.debug.xcconfig */,
+				279381D10C2A6CE74D992D17 /* Pods-firebase-example.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24B6E7E91BE797300052CCDD /* Build configuration list for PBXNativeTarget "firebase-example" */;
 			buildPhases = (
+				A272FFD4459702D8444443A8 /* Check Pods Manifest.lock */,
 				24B6E7D31BE797300052CCDD /* Sources */,
 				24B6E7D41BE797300052CCDD /* Frameworks */,
 				24B6E7D51BE797300052CCDD /* Resources */,
+				FCF70F75B0FCB4900E554217 /* Embed Pods Frameworks */,
+				50064733F0A85A24BED5AF8A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,21 +234,77 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24B6E7F61BE799960052CCDD /* NotoSans-Bold.ttf in Resources */,
 				24B6E7E51BE797300052CCDD /* LaunchScreen.storyboard in Resources */,
+				24B6E7F71BE799960052CCDD /* NotoSans-BoldItalic.ttf in Resources */,
+				24B6E7F81BE799960052CCDD /* NotoSans-Italic.ttf in Resources */,
 				24B6E7E21BE797300052CCDD /* Assets.xcassets in Resources */,
 				24B6E7E01BE797300052CCDD /* Main.storyboard in Resources */,
+				24B6E7F91BE799960052CCDD /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50064733F0A85A24BED5AF8A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-firebase-example/Pods-firebase-example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A272FFD4459702D8444443A8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FCF70F75B0FCB4900E554217 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-firebase-example/Pods-firebase-example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		24B6E7D31BE797300052CCDD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24B6E8011BE7A1690052CCDD /* MaterialTextField.swift in Sources */,
+				24B6E7FB1BE79BA90052CCDD /* MaterialView.swift in Sources */,
 				24B6E7DD1BE797300052CCDD /* ViewController.swift in Sources */,
 				24B6E7DB1BE797300052CCDD /* AppDelegate.swift in Sources */,
+				24B6E7FD1BE79BE20052CCDD /* Constants.swift in Sources */,
+				24B6E7FF1BE79F490052CCDD /* MaterialButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,8 +415,13 @@
 		};
 		24B6E7EA1BE797300052CCDD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C461906E1FCDF2E2C6147A0 /* Pods-firebase-example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/firebase-example",
+				);
 				INFOPLIST_FILE = "firebase-example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.funriver.firebase-example";
@@ -259,8 +431,13 @@
 		};
 		24B6E7EB1BE797300052CCDD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 279381D10C2A6CE74D992D17 /* Pods-firebase-example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/firebase-example",
+				);
 				INFOPLIST_FILE = "firebase-example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.funriver.firebase-example";
@@ -287,6 +464,7 @@
 				24B6E7EB1BE797300052CCDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
