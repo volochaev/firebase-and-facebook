@@ -9,21 +9,33 @@
 import UIKit
 
 class PostCell: UITableViewCell {
-    @IBOutlet weak var profileImg: UIImageView!
     @IBOutlet weak var showcaseImg: UIImageView!
-    
+    @IBOutlet weak var postDescription: UITextView!
+    @IBOutlet weak var postAuthor: UILabel!
+    @IBOutlet weak var postAuthorImg: UIImageView!
+    @IBOutlet weak var postLikes: UILabel!
 
+    var post: Post!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }
 
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-        profileImg.clipsToBounds = true
+        postAuthorImg.clipsToBounds = true
         showcaseImg.clipsToBounds = true
     }
 
     override func drawRect(rect: CGRect) {
-        profileImg.layer.cornerRadius = profileImg.frame.size.width / 2
+        postAuthorImg.layer.cornerRadius = postAuthorImg.frame.size.width / 2
+    }
+    
+    func configureCell(post: Post) {
+        self.post = post
+        self.postDescription.text = post.postDescription
+        self.postLikes.text = "\(post.postLikes)"
+        
+        
     }
 }
